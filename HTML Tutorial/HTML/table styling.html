@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- if you use (odd) insted of (even) the styling will occur on row 1,3,5 etc. insted of 2,4,6 etc.-->
+    <style>
+        tr:nth-child(even) {
+            background-color: #d6eeee;
+        }
+        
+        tr {
+            border-bottom: 1px solid grey;
+        }
+        
+        tr:hover {
+            background-color: #D6EE;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        if you add a background color on every other table row 
+        you will get a nice zebra strips effect.
+    -->
+    <table border="2px">
+        <tr>
+            <th> Company </th>
+            <th> Contact </th>
+            <th> Country </th>
+        </tr>
+        <tr>
+            <td> Alfreds Futterkiste </td>
+            <td> Maria Ander </td>
+            <td> germany </td>
+        </tr>
+        <tr>
+            <td> Centro comercial Moctezuma </td>
+            <td> Francisco Chnag </td>
+            <td> Maxico </td>
+        </tr>
+        <tr>
+            <td> Rasim </td>
+            <td> Francisco </td>
+            <td> India </td>
+        </tr>
+    </table>
+    <br>
+    <!-- HTML Table- Vertical Zebra stripes-->
+    <!-- TO make vertical zebra stripes every other column instead of every other row.-->
+    <table border="2px">
+        <tr>
+            <td> First Name </td>
+            <td> last Name </td>
+            <td> Age </td>
+        </tr>
+        <tr>
+            <td> Abdul </td>
+            <td> Rashid </td>
+            <td>20 </td>
+        </tr>
+        <tr>
+            <td> Aasif </td>
+            <td> Khan </td>
+            <td> 21 </td>
+        </tr>
+        <tr>
+            <td> Aayush </td>
+            <td> Pathak </td>
+            <td> 21 </td>
+        </tr>
+        <tr>
+            <td> Rasim </td>
+            <td> Khan </td>
+            <td> 21 </td>
+        </tr>
+    </table>
+    <br>
+    <!-- Horizontal Dividers -->
+    <table>
+        <tr>
+            <td> First Name </td>
+            <td> last Name </td>
+            <td> Age </td>
+        </tr>
+        <tr>
+            <td> Abdul </td>
+            <td> Rashid </td>
+            <td>20 </td>
+        </tr>
+        <tr>
+            <td> Aasif </td>
+            <td> Khan </td>
+            <td> 21 </td>
+        </tr>
+        <tr>
+            <td> Aayush </td>
+            <td> Pathak </td>
+            <td> 21 </td>
+        </tr>
+        <tr>
+            <td> Rasim </td>
+            <td> Khan </td>
+            <td> 21 </td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>

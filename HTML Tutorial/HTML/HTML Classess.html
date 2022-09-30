@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .city {
+            background-color: tomato;
+            color: white;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- the HTML class attribute is used to specify a class for an HTML element.
+    Multiple HTML element can share the same class.
+-->
+    <div class="city">
+        <h2> London </h2>
+        <p> London is the capital of england.</p>
+    </div>
+    <div class="city">
+        <h2> Paris </h2>
+        <p>
+            paris is the capital of france.
+        </p>
+    </div>
+    <div class="city">
+        <h2> Tokyo </h2>
+        <p>
+            tokyo is the capital of japan.
+        </p>
+    </div>
+    <script>
+        function myfunction() {
+            var x = document.getElementsByClassName("city");
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
